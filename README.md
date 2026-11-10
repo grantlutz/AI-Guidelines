@@ -68,7 +68,7 @@ Please follow these steps in order.
 
 2. Download
    - Propose the exact clone or ZIP steps, including the target folder, and wait for my OK.
-   - After cloning, show the commit with `git rev-parse HEAD` (or, for a ZIP, the file name and size) and wait for my OK before continuing.
+   - After cloning, show the commit with `git rev-parse HEAD` (or, for a ZIP, the file name and size). Ask me to confirm it matches the latest commit shown at https://github.com/grantlutz/AI-Guidelines/commits/main, and wait for my OK before continuing.
 
 3. Interview
    - Ask about my role, the products or services I manage, the tools I use, and my goals for this workspace.
