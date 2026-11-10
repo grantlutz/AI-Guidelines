@@ -1,100 +1,61 @@
-═══════════════════════════════════════════════════════════════════════════════
-STARTER AI WORKSPACE TEMPLATE - QUICK ADOPTION PROMPT
-═══════════════════════════════════════════════════════════════════════════════
+AI GUIDELINES — QUICK ADOPTION PROMPT
 
-👇 COPY EVERYTHING BELOW AND PASTE INTO YOUR COPILOT OR AI ASSISTANT 👇
+Copy everything between the lines below and paste it into your AI assistant.
+The assistant will download the official repository and help you configure
+the workspace. Approve every command before it runs.
 
-═══════════════════════════════════════════════════════════════════════════════
+This is the same prompt as README.md and ADOPTION_PROMPT.md.
+For usage notes, see ADOPTION_PROMPT.md.
 
-I'm adopting the Starter AI Workspace Template for my organization and need 
-your help customizing it. Please follow this constitution while helping me:
+───────────────────────────────────────────────────────────────────────────────
 
-CONSTITUTION PRINCIPLES
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+I want to adopt the AI Guidelines starter workspace.
 
-1. NEVER GUESS
-   If anything is unclear, ask me clarifying questions instead of assuming.
+Official source (use this URL only):
+https://github.com/grantlutz/AI-Guidelines.git
 
-2. VERIFY & DISCLOSE UNCERTAINTY
-   Check facts before proceeding. If unsure, tell me and verify with me.
+If I do not have git, use this ZIP instead:
+https://github.com/grantlutz/AI-Guidelines/archive/refs/heads/main.zip
 
-3. SEEK CLARITY FIRST
-   Check existing documentation before asking me questions that docs might answer.
+Please follow these steps in order.
 
-4. FLAG CONFLICTS
-   When my requests conflict with the constitution or each other, stop and tell me.
+1. Safety
+   - Show me every command and every file change before you run or apply it.
+   - Wait for my explicit OK before running each command.
+   - Clone or download only from the official URL above. Do not use forks, mirrors, or any other source.
+   - Default to a new folder. Never overwrite or delete existing files without asking me first.
+   - If a folder already exists at the target path, stop and ask me where to put the workspace.
+   - If the workspace files are already present, do not download them again. Confirm the location with me and continue from the interview.
 
-5. DOCUMENTATION IS AUTHORITY
-   The constitution and docs guide all our work.
+2. Download
+   - Propose the exact clone or ZIP steps, including the target folder, and wait for my OK.
+   - After the files are in place, briefly confirm what was downloaded.
 
-MY ORGANIZATION
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+3. Interview
+   - Ask about my role, the products or services I manage, the tools I use, and my goals for this workspace.
+   - Ask which template folders I need, which I can skip, and whether any should be renamed or added.
+   - Do not guess. Ask clarifying questions when something is unclear.
+   - Do not start customizing until I confirm the plan.
 
-Organization Name: [PROVIDE THIS]
-Team Size: [PROVIDE THIS]
-Top 3 Values: [PROVIDE THIS]
-Key Compliance Needs: [PROVIDE THIS OR LEAVE BLANK]
+4. Configure
+   - Tailor CONSTITUTION.md, 00_COPILOT_START_HERE.md, and the folder set to my answers.
+   - Update related docs if names or structure change, and keep links working.
+   - Show each proposed change and wait for my OK before writing it.
 
-WHAT I NEED (In This Order)
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+5. Wrap up
+   - Summarize what you downloaded, what you changed, what you left as-is, and recommended next steps.
+   - Point me to HOW_TO_ADOPT_AND_TRANSFORM.md and QUICK_START.md for team rollout and content migration.
+   - Remind me to review every change myself.
 
-STEP 1: CLARIFYING QUESTIONS
-Before we proceed, ask me these questions (one at a time):
-- Which 5 folders from the template are most important to our team?
-- Which folders should we remove or not use?
-- Do we need to add custom folders? (e.g., Client Work, R&D, etc.)
-- Who should own each folder?
-- How often should we review/maintain content?
+Once the files are on disk, follow the starter constitution in CONSTITUTION.md. This material is a starter guide provided as is. Verify every command before running it. The authors are not responsible for the results of using it.
 
-STEP 2: CUSTOMIZE THE CONSTITUTION
-Once I've answered, help me:
-- Review our current constitution
-- Update it to match our organization's values
-- Add any domain-specific rules we need
-- Flag anything that conflicts with our answers
-
-STEP 3: CREATE CUSTOMIZATION SUMMARY
-Create a document that shows:
-- Our organization name and structure
-- Folders we're using (with descriptions)
-- Folders we're removing
-- Who owns each folder
-- Review/maintenance schedule
-- Any customizations we made
-
-STEP 4: CREATE ACTION PLAN
-Create a checklist for Phase 1 (This Week):
-- Update folder names and structure
-- Customize the constitution
-- Identify 3 high-priority folders
-- List existing documentation to migrate first
-
-IMPORTANT CONSTRAINTS
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-✓ ASK before deciding anything
-✓ VERIFY facts if you're unsure
-✓ FLAG conflicts with the constitution
-✓ REFERENCE the constitution in recommendations
-✓ CREATE clear, actionable deliverables
-✓ DOCUMENT all decisions
-✗ Do NOT guess or assume
-✗ Do NOT proceed without my confirmation
-✗ Do NOT ignore conflicts
-
-Let's start: Please ask me the STEP 1 questions (one at a time, starting with #1).
-
-═══════════════════════════════════════════════════════════════════════════════
-
-👆 COPY EVERYTHING ABOVE 👆
+───────────────────────────────────────────────────────────────────────────────
 
 Then:
-1. Open your Copilot, ChatGPT, Claude, or AI assistant
-2. Paste the entire prompt
-3. Answer the questions it asks you
-4. Save the outputs it creates
-5. Share with your team
+1. Paste the prompt into your AI assistant.
+2. Read and approve each command before it runs.
+3. Answer the interview questions.
+4. Review the proposed changes, then read the summary.
 
-Estimated time: 30-40 minutes to complete all 4 steps
-
-═══════════════════════════════════════════════════════════════════════════════
+Official source: https://github.com/grantlutz/AI-Guidelines.git
+Full notes: ADOPTION_PROMPT.md

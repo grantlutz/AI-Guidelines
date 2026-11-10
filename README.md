@@ -1,8 +1,6 @@
 # AI Guidelines
 
-A starter constitution and guidelines for managing products and services with AI assistants and agents.
-
-This repository includes a starter AI workspace template: a comprehensive, customizable organizational structure designed to help teams manage governance, knowledge, decision-making, and collaboration with AI assistance.
+A starter constitution and workspace template for managing products and services with AI assistants.
 
 ## Disclaimer
 
@@ -22,138 +20,69 @@ Use at your own risk.
 
 This disclaimer is consistent with the [MIT License](LICENSE) included in this repository. The full text is also in [DISCLAIMER.md](DISCLAIMER.md). In the event of any conflict, the license terms control.
 
----
+## About
 
-## What's Inside
+This is a starter constitution and a set of guidelines you can turn into a working AI-assisted workspace for product and service management. It is a template, not a finished operating model: you (or your AI assistant, with your approval) adapt the principles, files, and folders to your work.
 
-This template provides:
+**Core files**
 
-✅ **18 Core Folders** organized by function (governance, knowledge, playbooks, products, and others)  
-✅ **CONSTITUTION.md** - Guidelines for AI-assisted work and decision-making  
-✅ **HOW_TO_ADOPT_AND_TRANSFORM.md** - Step-by-step guide to customize and implement  
-✅ **FOLDER_PURPOSES.md** - Detailed descriptions of each folder's intended use  
-✅ **00_COPILOT_START_HERE.md** - Quick orientation for getting started with your AI assistant  
-✅ **QUICK_START.md** - 5-step setup, checklists, and team rollout
+- [CONSTITUTION.md](CONSTITUTION.md) — principles for AI-assisted work and decision-making
+- [00_COPILOT_START_HERE.md](00_COPILOT_START_HERE.md) — orientation and startup sequence for your AI assistant
+- [ADOPTION_PROMPT.md](ADOPTION_PROMPT.md) — the get-started prompt and how to use it
+- [FOLDER_PURPOSES.md](FOLDER_PURPOSES.md) — what each folder is for
+- [HOW_TO_ADOPT_AND_TRANSFORM.md](HOW_TO_ADOPT_AND_TRANSFORM.md) — adoption phases and customization guidance
+- [QUICK_START.md](QUICK_START.md) — checklists and team rollout
+- [DISCLAIMER.md](DISCLAIMER.md), [LICENSE](LICENSE), and [SECURITY.md](SECURITY.md)
 
----
+**Starter folders** (18): `Governance`, `Products`, `Playbooks`, `Knowledge_Base`, `Decisions_ADR`, `Engineering_Standards`, `Architecture_Repository`, `Coding`, `Incidents`, `Meeting_Notes`, `Project_Records`, `Executive_Communications`, `TPM_Toolkit`, `Templates`, `Company_Templates`, `Example_Work`, `Working`, and `Archive`. You do not have to keep all of them. See [FOLDER_PURPOSES.md](FOLDER_PURPOSES.md) for the full descriptions.
 
-## Quick Start
+## Get started
 
-1. **Read**: `HOW_TO_ADOPT_AND_TRANSFORM.md` (20 min) - Understand the structure and adoption process
-2. **Customize**: Rename folders to match your organization's terminology
-3. **Review**: `CONSTITUTION.md` - Adjust principles to match your values
-4. **Populate**: Start moving your organization's content into the folders
-5. **Operationalize**: Train your team on the structure
+Copy the prompt below and paste it into your AI assistant. The assistant will download this repository from the official source and help you configure it for your needs. Approve every command before it runs.
 
-For a 30-minute path, first-week checklists, and team-sharing steps, see `QUICK_START.md`.
-
----
-
-## Folder Structure
+The same prompt, with more usage notes, is in [ADOPTION_PROMPT.md](ADOPTION_PROMPT.md).
 
 ```
-AI-Guidelines/
-├── Architecture_Repository/      (Technical architecture & design docs)
-├── Coding/                        (Scripts, automation, development)
-├── Decisions_ADR/                 (Architecture & decision records)
-├── Engineering_Standards/         (Coding standards, style guides)
-├── Example_Work/                  (Sample deliverables & templates)
-├── Executive_Communications/      (High-level briefs & reports)
-├── Governance/                    (Policies, compliance, audit trails)
-├── Incidents/                     (Incident tracking & postmortems)
-├── Knowledge_Base/                (Lessons learned, patterns, best practices)
-├── Meeting_Notes/                 (Meeting documentation & actions)
-├── Playbooks/                     (Runbooks & procedures)
-├── Products/                      (Product-specific documentation)
-├── Project_Records/               (Project charters & documentation)
-├── Company_Templates/             (Organization-specific templates)
-├── Templates/                     (Reusable document templates)
-├── TPM_Toolkit/                   (Program & project management)
-├── Working/                       (Active projects & work-in-progress)
-└── Archive/                       (Superseded material, retained not deleted)
+I want to adopt the AI Guidelines starter workspace.
+
+Official source (use this URL only):
+https://github.com/grantlutz/AI-Guidelines.git
+
+If I do not have git, use this ZIP instead:
+https://github.com/grantlutz/AI-Guidelines/archive/refs/heads/main.zip
+
+Please follow these steps in order.
+
+1. Safety
+   - Show me every command and every file change before you run or apply it.
+   - Wait for my explicit OK before running each command.
+   - Clone or download only from the official URL above. Do not use forks, mirrors, or any other source.
+   - Default to a new folder. Never overwrite or delete existing files without asking me first.
+   - If a folder already exists at the target path, stop and ask me where to put the workspace.
+   - If the workspace files are already present, do not download them again. Confirm the location with me and continue from the interview.
+
+2. Download
+   - Propose the exact clone or ZIP steps, including the target folder, and wait for my OK.
+   - After the files are in place, briefly confirm what was downloaded.
+
+3. Interview
+   - Ask about my role, the products or services I manage, the tools I use, and my goals for this workspace.
+   - Ask which template folders I need, which I can skip, and whether any should be renamed or added.
+   - Do not guess. Ask clarifying questions when something is unclear.
+   - Do not start customizing until I confirm the plan.
+
+4. Configure
+   - Tailor CONSTITUTION.md, 00_COPILOT_START_HERE.md, and the folder set to my answers.
+   - Update related docs if names or structure change, and keep links working.
+   - Show each proposed change and wait for my OK before writing it.
+
+5. Wrap up
+   - Summarize what you downloaded, what you changed, what you left as-is, and recommended next steps.
+   - Point me to HOW_TO_ADOPT_AND_TRANSFORM.md and QUICK_START.md for team rollout and content migration.
+   - Remind me to review every change myself.
+
+Once the files are on disk, follow the starter constitution in CONSTITUTION.md. This material is a starter guide provided as is. Verify every command before running it. The authors are not responsible for the results of using it.
 ```
-
----
-
-## Key Files
-
-| File | Purpose | Read First? |
-|---|---|---|
-| **HOW_TO_ADOPT_AND_TRANSFORM.md** | Complete adoption guide with phases and best practices | ✅ YES |
-| **CONSTITUTION.md** | Principles for AI-assisted work and decision-making | ✅ YES |
-| **QUICK_START.md** | 5-step setup, checklists, and team rollout | ✅ YES |
-| **FOLDER_PURPOSES.md** | Detailed description of each folder's purpose | After HOW_TO guide |
-| **00_COPILOT_START_HERE.md** | Quick orientation for your AI assistant | Reference |
-
----
-
-## For Different Roles
-
-### Project Manager
-→ Start with **Decisions_ADR**, **Project_Records**, **Playbooks**
-
-### Developer/Engineer
-→ Start with **Architecture_Repository**, **Engineering_Standards**, **Coding**
-
-### Knowledge Manager
-→ Start with **Knowledge_Base**, **Templates**, **Governance**
-
-### Executive/Leader
-→ Start with **Executive_Communications**, **Governance**, **Playbooks**
-
-### New Employee
-→ Read **00_COPILOT_START_HERE.md**, then explore **Knowledge_Base**
-
----
-
-## Key Principles
-
-This workspace is built on five core principles (see CONSTITUTION.md):
-
-1. **Never Guess** - Ask for clarity when uncertain
-2. **Verify & Disclose** - Check facts and reveal uncertainty
-3. **Clarity First** - Check documentation before asking questions
-4. **Flag Conflicts** - Stop and ask when guidance conflicts
-5. **Live Documentation** - This constitution guides all work
-
----
-
-## Customization Roadmap
-
-**Phase 1 (Week 1)**: Rename folders, customize CONSTITUTION.md  
-**Phase 2 (Weeks 2-4)**: Migrate existing documentation  
-**Phase 3 (Weeks 5-8)**: Train team, establish usage patterns  
-**Phase 4 (Ongoing)**: Refine, archive stale content, evolve structure  
-
-See `HOW_TO_ADOPT_AND_TRANSFORM.md` for detailed guidance.
-
----
-
-## Next Steps
-
-1. Open `HOW_TO_ADOPT_AND_TRANSFORM.md` and read the Quick Start section
-2. Review the folder descriptions that apply to your organization
-3. Customize folder names and CONSTITUTION.md principles
-4. Create a README in your root explaining your workspace vision
-5. Begin Phase 1 of the adoption guide
-
----
-
-## Support
-
-- **Folder unclear?** → See `FOLDER_PURPOSES.md`
-- **How do I adopt this?** → See `HOW_TO_ADOPT_AND_TRANSFORM.md`
-- **How does an AI assistant work here?** → See `CONSTITUTION.md` and `00_COPILOT_START_HERE.md`
-- **Something conflicts?** → See CONSTITUTION.md → "Conflict Detection & Resolution"
-- **Security issue?** → See `SECURITY.md`
-
----
-
-**Version**: 1.0  
-**Created**: 2026-11-10  
-**Status**: Ready for Adoption & Customization
-
----
 
 ## License
 

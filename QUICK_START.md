@@ -1,30 +1,35 @@
-# Quick Reference: Getting Started in 5 Steps
+# Quick Reference: Getting Started
 
-This is your fastest path to adopting the starter AI workspace template in this repository.
+The fastest way to adopt this template is to paste the get-started prompt from [README.md](README.md) (also in [ADOPTION_PROMPT.md](ADOPTION_PROMPT.md)) into your AI assistant. The assistant will download the official repository, ask about your role, products or services, tools, and goals, and then help configure the workspace. Approve every command before it runs.
 
----
-
-## Step 1: Understand What You Have (5 minutes)
-
-**Read**: `README.md` (this folder)
-
-This gives you the 30-second overview.
+If you prefer to set things up yourself, use the manual path below.
 
 ---
 
-## Step 2: Plan Your Customization (10 minutes)
+## Manual setup in 5 steps
 
-**Read**: `HOW_TO_ADOPT_AND_TRANSFORM.md` - Just the "Quick Start" section
+### Step 1: Understand What You Have (5 minutes)
+
+**Read**: [README.md](README.md)
+
+This gives you a short overview of what the template provides.
+
+---
+
+### Step 2: Plan Your Customization (10 minutes)
+
+**Read**: [HOW_TO_ADOPT_AND_TRANSFORM.md](HOW_TO_ADOPT_AND_TRANSFORM.md) — just the "Quick Start" section
 
 This shows you the roadmap and answers "What's my first week?"
 
 ---
 
-## Step 3: Decide Your Constitution (5 minutes)
+### Step 3: Decide Your Constitution (5 minutes)
 
-**Review**: `CONSTITUTION.md`
+**Review**: [CONSTITUTION.md](CONSTITUTION.md)
 
 This is how your AI assistant will work with you. Ask:
+
 - Do these principles match my values?
 - What would I change?
 - What's missing?
@@ -33,9 +38,9 @@ Make a mental note of changes.
 
 ---
 
-## Step 4: Customize Your Folders (30 minutes)
+### Step 4: Customize Your Folders (30 minutes)
 
-In Finder or your file system:
+In your file system:
 
 1. **Customize these folders** (optional):
    - `Company_Templates/` → Rename to match your organization
@@ -53,26 +58,30 @@ In Finder or your file system:
 
 ---
 
-## Step 5: Start Using It (Today)
+### Step 5: Start Using It (Today)
 
 Pick **ONE** of these based on your role:
 
 ### If You're a Manager/Executive
+
 1. Put your team in `Executive_Communications/`
 2. Create a project in `Project_Records/`
 3. Start tracking decisions in `Decisions_ADR/`
 
 ### If You're an Engineer/Developer
+
 1. Put architecture docs in `Architecture_Repository/`
 2. Add standards to `Engineering_Standards/`
 3. Create playbooks in `Playbooks/` for common tasks
 
 ### If You're a Knowledge Manager
+
 1. Start populating `Knowledge_Base/` with existing docs
 2. Create an index/navigation file
 3. Set up a review schedule
 
 ### If You're Building Something New
+
 1. Create a project charter in `Project_Records/`
 2. Track decisions in `Decisions_ADR/`
 3. Link everything back
@@ -81,6 +90,7 @@ Pick **ONE** of these based on your role:
 
 ## First Week Checklist
 
+- [ ] Paste the get-started prompt from `README.md` into your AI assistant, or follow the manual steps above
 - [ ] Read `README.md` and this file
 - [ ] Review and customize `CONSTITUTION.md`
 - [ ] Decide whether to rename `Company_Templates/` and `TPM_Toolkit/`
@@ -107,13 +117,15 @@ Pick **ONE** of these based on your role:
 
 ## Sharing With Your Team
 
-- Day 1: Send them `README.md` (5 minute read)
-- Day 2: Send them this file (5 minute read)
+- Day 1: Send them `README.md` (a short read)
+- Day 2: Send them this file
 - Day 3: Discuss `CONSTITUTION.md` and get alignment
 - Day 4: Show the folder structure and demo usage
 - Day 5: Assign someone to start populating content
 
 Total team onboarding: about 1-2 hours.
+
+A short email template is also in [ADOPTION_PROMPT.md](ADOPTION_PROMPT.md).
 
 ---
 
@@ -142,9 +154,10 @@ You'll know it's working when:
 
 ## What Next?
 
-- **Want the full guide?** → Read `HOW_TO_ADOPT_AND_TRANSFORM.md` in full
-- **Need folder details?** → See `FOLDER_PURPOSES.md`
-- **How does an AI assistant fit?** → Read `00_COPILOT_START_HERE.md`
+- **Want the assistant to set this up?** → Paste the prompt in [README.md](README.md) or [ADOPTION_PROMPT.md](ADOPTION_PROMPT.md)
+- **Want the full guide?** → Read [HOW_TO_ADOPT_AND_TRANSFORM.md](HOW_TO_ADOPT_AND_TRANSFORM.md) in full
+- **Need folder details?** → See [FOLDER_PURPOSES.md](FOLDER_PURPOSES.md)
+- **How does an AI assistant fit?** → Read [00_COPILOT_START_HERE.md](00_COPILOT_START_HERE.md)
 
 ---
 
@@ -154,20 +167,21 @@ You'll know it's working when:
 A: No. Use what fits your organization. Ignore the rest or remove them.
 
 **Q: Can I change the folder names?**  
-A: Yes! Make it yours. Clear names that match your terminology are better.
+A: Yes. Make it yours. Clear names that match your terminology are better.
 
 **Q: What if I add new folders?**  
-A: Great! Just make sure they're organized and linked. Update README.md so people know what's in them.
+A: Great. Just make sure they're organized and linked. Update README.md so people know what's in them.
 
 **Q: How do I share this with my team?**  
-A: Send them to `README.md` first, then `HOW_TO_ADOPT_AND_TRANSFORM.md`. No need to read everything.
+A: Send them to `README.md` first, then this file or `HOW_TO_ADOPT_AND_TRANSFORM.md`. No need to read everything.
 
-**Q: Can I use this with Copilot, ChatGPT, Claude, or another AI assistant?**  
-A: Yes! The CONSTITUTION.md exists for exactly this purpose. Share it with your AI assistant and refer to it when asking for help.
+**Q: Can I use this with any AI assistant?**  
+A: Yes. `CONSTITUTION.md` exists for exactly this purpose. Share it with your AI assistant and refer to it when asking for help. The get-started prompt is written to work with any assistant.
+
+**Q: What if I don't use git?**  
+A: The get-started prompt includes an official ZIP download. You can also use **Code → Download ZIP** on the [repository page](https://github.com/grantlutz/AI-Guidelines).
 
 ---
 
-**Time to Get Started**: 30 minutes  
-**Full Adoption**: 4-8 weeks (see phases in HOW_TO_ADOPT_AND_TRANSFORM.md)
-
-Let's go! 🚀
+**Time to Get Started**: about 30 minutes with the get-started prompt, or about 30 minutes for the manual path  
+**Full Adoption**: 4-8 weeks (see phases in [HOW_TO_ADOPT_AND_TRANSFORM.md](HOW_TO_ADOPT_AND_TRANSFORM.md))
