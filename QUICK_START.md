@@ -52,7 +52,7 @@ In your file system:
    - Add folders for what's missing (e.g., "Client_Work", "R&D")
 
 3. **Update CONSTITUTION.md**:
-   - Change organization name placeholders to your company
+   - Add your organization name and context where it helps
    - Adjust principles that don't align
    - Add any domain-specific rules
 
@@ -183,5 +183,5 @@ A: The get-started prompt includes an official ZIP download. You can also use **
 
 ---
 
-**Time to Get Started**: about 30 minutes with the get-started prompt, or about 30 minutes for the manual path  
+**Time to Get Started**: about 30 minutes, with the get-started prompt or the manual path  
 **Full Adoption**: 4-8 weeks (see phases in [HOW_TO_ADOPT_AND_TRANSFORM.md](HOW_TO_ADOPT_AND_TRANSFORM.md))

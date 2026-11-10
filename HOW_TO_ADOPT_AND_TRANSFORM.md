@@ -1,4 +1,4 @@
-# How to Adopt and Transform the Starter AI Workspace Template
+# How to Adopt and Transform the AI Guidelines Starter Workspace
 
 Welcome! This guide will help you understand the structure, adopt it for your organization, and transform it to fit your unique needs.
 
