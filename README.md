@@ -61,7 +61,7 @@ Please follow these steps in order.
    - Never execute scripts, hooks, or installers from the repository.
    - Clone or download only from the official URL above. Do not use forks, mirrors, or any other source. If the URL you would call differs, is shortened, or redirects to any other host or repository, stop and tell me. Do not follow the redirect.
    - Do not read, copy, send, or commit secrets, credentials, tokens, or personal data. Do not ask me for access tokens or passwords. Do not upload my files anywhere. Keep all work on my local machine unless I explicitly ask otherwise.
-   - Default to a new folder. Never overwrite or delete existing files without asking me first. If a file already exists, show me a diff and either back it up or skip it.
+   - Default to a new folder. Never overwrite or delete existing files without asking me first. If a file already exists inside the agreed folder, show me a diff and either back it up or skip it.
    - Never write outside the agreed folder. Never run git clean, git reset --hard, or rm unless I approve that exact command.
    - If a folder already exists at the target path, stop and ask me where to put the workspace.
    - If the workspace files are already present (the target folder already contains CONSTITUTION.md and 00_COPILOT_START_HERE.md from this repository), do not download them again. Confirm the location with me and continue from the interview.
