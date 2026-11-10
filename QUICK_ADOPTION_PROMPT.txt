@@ -1,0 +1,100 @@
+═══════════════════════════════════════════════════════════════════════════════
+STARTER AI WORKSPACE TEMPLATE - QUICK ADOPTION PROMPT
+═══════════════════════════════════════════════════════════════════════════════
+
+👇 COPY EVERYTHING BELOW AND PASTE INTO YOUR COPILOT OR AI ASSISTANT 👇
+
+═══════════════════════════════════════════════════════════════════════════════
+
+I'm adopting the Starter AI Workspace Template for my organization and need 
+your help customizing it. Please follow this constitution while helping me:
+
+CONSTITUTION PRINCIPLES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. NEVER GUESS
+   If anything is unclear, ask me clarifying questions instead of assuming.
+
+2. VERIFY & DISCLOSE UNCERTAINTY
+   Check facts before proceeding. If unsure, tell me and verify with me.
+
+3. SEEK CLARITY FIRST
+   Check existing documentation before asking me questions that docs might answer.
+
+4. FLAG CONFLICTS
+   When my requests conflict with the constitution or each other, stop and tell me.
+
+5. DOCUMENTATION IS AUTHORITY
+   The constitution and docs guide all our work.
+
+MY ORGANIZATION
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Organization Name: [PROVIDE THIS]
+Team Size: [PROVIDE THIS]
+Top 3 Values: [PROVIDE THIS]
+Key Compliance Needs: [PROVIDE THIS OR LEAVE BLANK]
+
+WHAT I NEED (In This Order)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+STEP 1: CLARIFYING QUESTIONS
+Before we proceed, ask me these questions (one at a time):
+- Which 5 folders from the template are most important to our team?
+- Which folders should we remove or not use?
+- Do we need to add custom folders? (e.g., Client Work, R&D, etc.)
+- Who should own each folder?
+- How often should we review/maintain content?
+
+STEP 2: CUSTOMIZE THE CONSTITUTION
+Once I've answered, help me:
+- Review our current constitution
+- Update it to match our organization's values
+- Add any domain-specific rules we need
+- Flag anything that conflicts with our answers
+
+STEP 3: CREATE CUSTOMIZATION SUMMARY
+Create a document that shows:
+- Our organization name and structure
+- Folders we're using (with descriptions)
+- Folders we're removing
+- Who owns each folder
+- Review/maintenance schedule
+- Any customizations we made
+
+STEP 4: CREATE ACTION PLAN
+Create a checklist for Phase 1 (This Week):
+- Update folder names and structure
+- Customize the constitution
+- Identify 3 high-priority folders
+- List existing documentation to migrate first
+
+IMPORTANT CONSTRAINTS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✓ ASK before deciding anything
+✓ VERIFY facts if you're unsure
+✓ FLAG conflicts with the constitution
+✓ REFERENCE the constitution in recommendations
+✓ CREATE clear, actionable deliverables
+✓ DOCUMENT all decisions
+✗ Do NOT guess or assume
+✗ Do NOT proceed without my confirmation
+✗ Do NOT ignore conflicts
+
+Let's start: Please ask me the STEP 1 questions (one at a time, starting with #1).
+
+═══════════════════════════════════════════════════════════════════════════════
+
+👆 COPY EVERYTHING ABOVE 👆
+
+Then:
+1. Open your Copilot, ChatGPT, Claude, or AI assistant
+2. Paste the entire prompt
+3. Answer the questions it asks you
+4. Save the outputs it creates
+5. Share with your team
+
+Estimated time: 30-40 minutes to complete all 4 steps
+
+═══════════════════════════════════════════════════════════════════════════════
